@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Idade</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Verificador de Idade</h1>
+ 
+    <label for="dayInput">Dia:</label>
+    <input type="number" id="dayInput" min="1" max="31">
+    <label for="monthInput">Mês:</label>
+    <input type="number" id="monthInput" min="1" max="12">
+    <label for="yearInput">Ano:</label>
+    <input type="number" id="yearInput" min="1900" max="2100">
+    
+    <div class="result-container" id="resultContainer">
+      <p id="resultMessage"></p>
+      <p id="userName"></p>
+      <button id="checkButton">Verificar Idade</button>
+      <button id="resetButton">Resetar</button>
+    </div>
+
+    <script src="Dente.js"></script>
+    <link rel="stylesheet" href="Febre.css">
+  </div>
+</body>
+</html>
